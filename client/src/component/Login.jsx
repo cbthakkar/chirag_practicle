@@ -43,10 +43,10 @@ const Login = () => {
                     <input className='inpMain' type="email" placeholder='Email address' value={email} onChange={(e) => setEmail(e.target.value)} /> <br /><br />
                     <input className='inpMain' type="text" placeholder='Password' value={password} onChange={(e) => setPassword(e.target.value)} /> <br /><br />
                     <button style={{ textAlign: 'center' }} className='addBtn' type='submit'>Login</button>
-                </form> 
+                </form>
                 </div>
             </div>
-        </div>
+        </div> 
     )
 }
 
