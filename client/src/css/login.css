@@ -1,0 +1,57 @@
+/* login page css */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainNav{
+    height: 100px;
+    background-color: #F34D61;
+}
+.title{
+    font-size: 20px;
+    color: white;
+}
+.addBtn{
+    width: 350px;
+    padding: 10px 0px;
+    background: #F34D61;
+    border: none;
+    color: white;
+}
+.inpMain{
+    width: 330px;
+    padding: 10px;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Dashboard css */
+
+.setSearchBar{
+    margin: 20px;
+    text-align: end;
+}
+.search-inp{
+    padding: 8px;
+    width: 20%;
+    border-radius: 3px;
+    border-color: wheat;
+}
+.innerBox{
+    border-radius: 10px;
+    border: 2px solid wheat;
+    padding: 20px;
+}
+.load-btn{
+    padding: 10px;
+    background-color: #F34D61;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    margin: 10px;
+}
